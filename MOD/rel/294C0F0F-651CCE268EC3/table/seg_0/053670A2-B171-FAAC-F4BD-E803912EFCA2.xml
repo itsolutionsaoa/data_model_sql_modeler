@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="053670A2-B171-FAAC-F4BD-E803912EFCA2" name="TABLE_2">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 18:48:44 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Column_1" id="3A07CE8A-BAC9-48DE-0DD6-90A7A13F8988">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 18:49:18 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEST_1_Column_1" id="5AF01824-FD24-4918-9346-A51CAD00121F">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 19:38:48 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3F4B571-41E6-589E-66CE-A45956BCBBC7" referredColumn="0EC54BCF-3503-5375-F268-3A166B6FC800"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D0E071D-968A-B8D7-A2A2-7CC3C0F63C5C" name="TABLE_2_TEST_1_FK">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 19:38:48 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AF01824-FD24-4918-9346-A51CAD00121F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

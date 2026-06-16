@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65DCFF6B-C21C-30DA-4248-C597F3CBD0E4" name="TEST_1">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 18:47:54 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Column_1" id="0EC54BCF-3503-5375-F268-3A166B6FC800">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 18:48:32 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_2" id="29CF3B4B-0FA3-8C6F-2E08-E99CC6558E12">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 18:48:32 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_3" id="0608FB0D-0703-35D4-CE1A-97D59CC933B1">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 18:48:32 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_4" id="A7DFFEE6-A5A0-E28F-BBC2-ECF44BD6D292">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 18:48:32 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_5" id="320FE13C-03C8-021B-175B-4CFEF1253D82">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 18:48:32 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_6" id="78231C20-0A74-8DF5-F3A1-8143724EF56A">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 18:48:32 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45E59449-61C2-9731-FAF1-5E448E1B93E4" name="TEST_1__UN">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-15 19:38:09 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EC54BCF-3503-5375-F268-3A166B6FC800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
