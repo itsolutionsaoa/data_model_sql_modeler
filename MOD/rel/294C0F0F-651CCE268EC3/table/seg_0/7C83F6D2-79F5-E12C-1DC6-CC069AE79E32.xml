@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C83F6D2-79F5-E12C-1DC6-CC069AE79E32" name="BS_GROUPS">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 18:54:32 UTC</createdTime>
+<notes><![CDATA[THIS table that countain student and assigne to the group]]></notes>
+<ownerDesignName>MOD</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GROUP_ID" id="C49A0717-447B-E3B8-11C1-40DE62C997CB">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 18:56:24 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PART_ID" id="AF0ED930-CF5D-DB43-155E-932C4C01A0FC">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 18:56:24 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDE64C29-9880-1AAA-3778-0DE57A911B1B" referredColumn="EB72D743-7298-6894-457E-CF93B99F71E3"/>
+</associations>
+</Column>
+<Column name="START_DATE" id="250678A3-3AEB-2B24-F189-38A9A7CE1E5F">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 18:58:22 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="5CDC66DE-A74C-09B6-DEE6-3D4A3FD76BF2">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 18:58:22 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A42763E-A64F-8BEA-F839-4E8A72D93D7B" name="BS_GROUPS_PK">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 18:56:24 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C49A0717-447B-E3B8-11C1-40DE62C997CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71597CFE-FC4A-5189-9922-EDEBBAF0E5D5" name="BS_GROUPS_ERP_PARTNER_FK">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:06:00 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF0ED930-CF5D-DB43-155E-932C4C01A0FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

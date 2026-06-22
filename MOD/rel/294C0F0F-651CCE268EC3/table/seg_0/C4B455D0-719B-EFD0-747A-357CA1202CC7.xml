@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4B455D0-719B-EFD0-747A-357CA1202CC7" name="BS_SUPERVISER_TYPE">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:39:54 UTC</createdTime>
+<notes><![CDATA[TYPE PARENT OT TECHER ETC]]></notes>
+<ownerDesignName>MOD</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TYPE_ID" id="B63D214A-A028-94E3-70F7-03B3DDC043C2">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:43:05 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_NAME_AR" id="047B6360-5410-D961-A505-BAE0AFF688DE">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:43:05 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_NAME_EN" id="744877CC-B477-2E56-DD83-65F618CC83D1">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:43:05 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="44A1D9F3-79F2-1C34-E271-94A0A003E2F2">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:43:05 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="43C2EE71-973F-332C-055D-E24C2CF30B5A">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:43:05 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="8A6E4154-2378-C7BF-B7F4-1AED36BEBDEE">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:43:05 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_DATE" id="89AB6831-4A94-F5B0-724D-D813995F48F7">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:43:05 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12BE8104-E69D-186D-4034-F05BF9142ECA" name="BS_SUPERVISER_TYPE_PK">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:43:05 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B63D214A-A028-94E3-70F7-03B3DDC043C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

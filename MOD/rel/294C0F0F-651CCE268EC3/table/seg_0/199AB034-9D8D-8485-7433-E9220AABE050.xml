@@ -1,47 +1,53 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8C90A28-BFB9-149C-59B0-0BD483E2BDE7" name="SEC_USER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="199AB034-9D8D-8485-7433-E9220AABE050" name="BS_GROUP_INFO">
 <createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 16:16:10 UTC</createdTime>
+<createdTime>2026-06-22 19:09:31 UTC</createdTime>
 <ownerDesignName>MOD</ownerDesignName>
-<ordsAlias>table_4</ordsAlias>
+<ordsAlias>table_5</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="USER_ID" id="0A8B47EB-FF0D-F76E-00E8-936F97B8BC46">
+<Column name="GROUP_ID" id="8E569CCF-B2AB-308B-CA12-0DD06D003727">
 <createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 16:18:11 UTC</createdTime>
+<createdTime>2026-06-22 19:13:00 UTC</createdTime>
 <ownerDesignName>MOD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EB29B3D-AB87-DD1D-BA3D-480BA8423558" referredColumn="C49A0717-447B-E3B8-11C1-40DE62C997CB"/>
+</associations>
 </Column>
-<Column name="PASSWORD_HASH" id="9A5831F7-727A-952C-71D6-5E39FA2E8B16">
+<Column name="GROUP_NAME_AR" id="F748EAAA-D4ED-C689-3CCB-B2B9B4AC8AF2">
 <createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 16:18:11 UTC</createdTime>
+<createdTime>2026-06-22 19:13:00 UTC</createdTime>
 <ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="START_DATE" id="3B5BD251-2254-567B-EE68-F058337C1084">
+<Column name="GROUP_NAME_EN" id="C2459C9F-FB90-AF88-EEB0-495CF97C947B">
 <createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 16:19:38 UTC</createdTime>
+<createdTime>2026-06-22 19:13:00 UTC</createdTime>
 <ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="END_DATE" id="50466A5E-332A-4818-DD78-2E566F6EC4BD">
+<Column name="START_DATE" id="8B9640F9-C246-C2CE-2AB6-E848CC344EEC">
 <createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 16:19:38 UTC</createdTime>
+<createdTime>2026-06-22 19:13:00 UTC</createdTime>
 <ownerDesignName>MOD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,9 +56,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PART_ID" id="B602C840-8AAF-D3B5-18E5-CA579F7C9A65">
+<Column name="END_DATE" id="B16C893B-4950-5283-CAA6-51C0BC03D969">
 <createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 16:19:38 UTC</createdTime>
+<createdTime>2026-06-22 19:13:00 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="DE5D5EFF-F728-779A-C250-40F2EB4AAEAC">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 19:13:00 UTC</createdTime>
 <ownerDesignName>MOD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,19 +78,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USER_NAME" id="C82A98E2-38DE-E888-8E67-21EDED6A9744">
+<Column name="CREATED_DATE" id="CFCC58A9-95E7-9172-596C-FBB80439C34C">
 <createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 16:20:44 UTC</createdTime>
+<createdTime>2026-06-22 19:13:00 UTC</createdTime>
 <ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CREATED_BY" id="BB6110E4-4540-E428-AEE0-6ED63F624DA0">
+<Column name="UPDATED_BY" id="2C321EDF-858B-392D-5337-B2882D866021">
 <createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 19:00:01 UTC</createdTime>
+<createdTime>2026-06-22 19:13:00 UTC</createdTime>
 <ownerDesignName>MOD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,31 +100,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CREATED_DATE" id="E43232DF-BE24-5719-8490-88CE85E02046">
+<Column name="UPDATED_DATE" id="913C4EDB-481C-B4F9-3D3B-ED304F4B0871">
 <createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 19:00:01 UTC</createdTime>
-<ownerDesignName>MOD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="UPDATED_BY" id="46CE8A7E-53DC-8903-1E53-65606331E693">
-<createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 19:00:01 UTC</createdTime>
-<ownerDesignName>MOD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="UPDATED_DATE" id="B96D05D5-E89D-8674-BDFA-B14732F4E2F2">
-<createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 19:00:01 UTC</createdTime>
+<createdTime>2026-06-22 19:13:00 UTC</createdTime>
 <ownerDesignName>MOD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -117,35 +113,14 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D78739D8-4431-70A9-6A47-79D62363BA3A" name="SEC_USER_PK">
+<ind_PK_UK id="0266FD6E-EEA6-7CB6-0DCD-52FA18727DFD" name="BS_GROUP_INFO_BS_GROUPS_FK">
 <createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 16:18:11 UTC</createdTime>
+<createdTime>2026-06-22 19:13:09 UTC</createdTime>
 <ownerDesignName>MOD</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
+<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0A8B47EB-FF0D-F76E-00E8-936F97B8BC46"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="E163F0FB-18D8-CE4E-F27C-8D3FEE82377C" name="USER_NAME_UNI">
-<createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 16:20:44 UTC</createdTime>
-<ownerDesignName>MOD</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C82A98E2-38DE-E888-8E67-21EDED6A9744"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="987832E6-1187-1EBD-AF09-42CF34AB223E" name="PART_ID_INDEX">
-<createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 16:21:16 UTC</createdTime>
-<ownerDesignName>MOD</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B602C840-8AAF-D3B5-18E5-CA579F7C9A65"/>
+<colUsage columnID="8E569CCF-B2AB-308B-CA12-0DD06D003727"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
