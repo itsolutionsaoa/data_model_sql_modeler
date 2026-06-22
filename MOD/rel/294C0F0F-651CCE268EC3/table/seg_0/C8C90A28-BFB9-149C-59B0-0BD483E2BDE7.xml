@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8C90A28-BFB9-149C-59B0-0BD483E2BDE7" name="SEC_USER">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:16:10 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="0A8B47EB-FF0D-F76E-00E8-936F97B8BC46">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:18:11 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD_HASH" id="9A5831F7-727A-952C-71D6-5E39FA2E8B16">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:18:11 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="3B5BD251-2254-567B-EE68-F058337C1084">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:19:38 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="50466A5E-332A-4818-DD78-2E566F6EC4BD">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:19:38 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PART_ID" id="B602C840-8AAF-D3B5-18E5-CA579F7C9A65">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:19:38 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_NAME" id="C82A98E2-38DE-E888-8E67-21EDED6A9744">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:20:44 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D78739D8-4431-70A9-6A47-79D62363BA3A" name="SEC_USER_PK">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:18:11 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A8B47EB-FF0D-F76E-00E8-936F97B8BC46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E163F0FB-18D8-CE4E-F27C-8D3FEE82377C" name="USER_NAME_UNI">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:20:44 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C82A98E2-38DE-E888-8E67-21EDED6A9744"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="987832E6-1187-1EBD-AF09-42CF34AB223E" name="PART_ID_INDEX">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:21:16 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B602C840-8AAF-D3B5-18E5-CA579F7C9A65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

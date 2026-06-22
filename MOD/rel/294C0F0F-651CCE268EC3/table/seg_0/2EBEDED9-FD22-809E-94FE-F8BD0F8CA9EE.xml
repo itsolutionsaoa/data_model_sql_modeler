@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EBEDED9-FD22-809E-94FE-F8BD0F8CA9EE" name="SEC_USER_ORG">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:21:32 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="5FC18BE1-04A2-9849-5297-582C73AB031F">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:22:19 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORG_ID" id="80E8A3C1-4892-33ED-8E58-91249F4A8D9E">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:22:19 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="6AF90824-2082-A5F2-A994-1E41D8EDE155">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:24:52 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="5F2EE5E7-71E5-FCB3-4339-3263011354EE">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:24:52 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEC_USER_USER_ID" id="D714FCCB-9F96-A56C-2782-4F8EC38984F3">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:25:05 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAAC671A-3CC1-44D4-3376-3287ABC25669" referredColumn="0A8B47EB-FF0D-F76E-00E8-936F97B8BC46"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9E9DB2A-D2B7-DFB9-8C2A-E424AC3EBF4A" name="USER_ORG_INDEX">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:24:52 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80E8A3C1-4892-33ED-8E58-91249F4A8D9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B693AC0D-F449-7707-0931-31BE8C129D70" name="SEC_USER_ORG_USER">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:24:52 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FC18BE1-04A2-9849-5297-582C73AB031F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E647C3E1-4391-6EEA-2ADC-52EBD17E2EC6" name="SEC_USER_ORG_SEC_USER_FK">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-22 16:25:05 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D714FCCB-9F96-A56C-2782-4F8EC38984F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
