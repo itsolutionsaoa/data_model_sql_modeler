@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C83F6D2-79F5-E12C-1DC6-CC069AE79E32" name="BS_GROUPS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C83F6D2-79F5-E12C-1DC6-CC069AE79E32" name="BS_GROUPS_PART">
 <createdBy>ahmed</createdBy>
 <createdTime>2026-06-22 18:54:32 UTC</createdTime>
 <notes><![CDATA[THIS table that countain student and assigne to the group]]></notes>
@@ -18,6 +18,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D371E59-EC9F-23A9-0483-4BCC3A83D8C1" referredColumn="8E569CCF-B2AB-308B-CA12-0DD06D003727"/>
+</associations>
 </Column>
 <Column name="PART_ID" id="AF0ED930-CF5D-DB43-155E-932C4C01A0FC">
 <createdBy>ahmed</createdBy>
@@ -64,6 +67,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C49A0717-447B-E3B8-11C1-40DE62C997CB"/>
+<colUsage columnID="AF0ED930-CF5D-DB43-155E-932C4C01A0FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="71597CFE-FC4A-5189-9922-EDEBBAF0E5D5" name="BS_GROUPS_ERP_PARTNER_FK">
@@ -74,6 +78,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AF0ED930-CF5D-DB43-155E-932C4C01A0FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FAA8E61-87DC-2CCA-63ED-B6DC1BA6B086" name="BS_GROUPS_PART_BS_GROUP_FK">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-23 16:41:40 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C49A0717-447B-E3B8-11C1-40DE62C997CB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

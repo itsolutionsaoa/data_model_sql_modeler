@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="EEC1725E-0648-8539-0EA3-3FD548A22070" referredColumn="C49A0717-447B-E3B8-11C1-40DE62C997CB"/>
+<colAssociation fkAssociation="06AF93E7-9B11-F9E9-1FC3-EE604E0A86E2" referredColumn="8E569CCF-B2AB-308B-CA12-0DD06D003727"/>
 </associations>
 </Column>
 <Column name="PART_ID" id="545AB401-1C59-1066-F646-891567B09EFB">
@@ -126,16 +126,6 @@
 <colUsage columnID="545AB401-1C59-1066-F646-891567B09EFB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8CBE3D72-AC88-66E8-1E41-8CDAE20B418D" name="BS_GROUP_SUPERVISER_BS_GROUPS_FK">
-<createdBy>ahmed</createdBy>
-<createdTime>2026-06-22 19:21:13 UTC</createdTime>
-<ownerDesignName>MOD</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="97EF9DA0-A5F8-1EBC-9888-59D9BA1259C8"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="01E7ACCB-DD54-49FE-9A5C-25C1A1F9632E" name="BS_GROUP_SUPERVISER_BS_SUPERVISER_TYPE_FK">
 <createdBy>ahmed</createdBy>
 <createdTime>2026-06-22 19:46:39 UTC</createdTime>
@@ -144,6 +134,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="240F8DE0-7A77-F813-AFF0-45E58FF2F65E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="104177FA-3D20-43B1-49B0-F4C83D258639" name="BS_GROUP_SUPERVISER_BS_GROUP_FK">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-23 16:44:59 UTC</createdTime>
+<ownerDesignName>MOD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97EF9DA0-A5F8-1EBC-9888-59D9BA1259C8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

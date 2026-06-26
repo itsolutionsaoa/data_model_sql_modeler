@@ -115,6 +115,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="IS_ACTIVE" id="924B57F1-C384-8DC2-DB2A-A38B3B45E30E">
+<createdBy>ahmed</createdBy>
+<createdTime>2026-06-23 16:31:33 UTC</createdTime>
+<comment><![CDATA[Y FOR ACTIVE
+N FOR NOT ACTIVE]]></comment>
+<ownerDesignName>MOD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D78739D8-4431-70A9-6A47-79D62363BA3A" name="SEC_USER_PK">
